@@ -1,0 +1,2057 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/oyelade/ontologies/2020/3/cbr-covid19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/oyelade/ontologies/2020/3/cbr-covid19">
+    <Prefix name="" IRI="http://www.semanticweb.org/oyelade/ontologies/2020/3/cbr-covid19"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>An ontology describing the domain knowledge of Coronavirus as known as Covid19</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Covid19 accounts for  5-10% of acute respiratory infections</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ALT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abidor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acetaminophen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acidosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcuteRespiratoryDistressSyndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adenovirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeOfPatients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeOfTheDeaths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alpha-COV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alpha-Interferon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntiBacterialTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntibioticTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntifungalTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntiviralTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidCloseContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidLargeEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidSharingBedding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidSharingDishes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidSharingGlasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidTouchingEyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidTouchingMouth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidTouchingNose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasicReproduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beta-COV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodUreaLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueFace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueLips"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C-reactive_protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD4Lymphocyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD8Lymphocyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiacInjury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaseFatalityRatio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaseHospitalizationRatio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CategoryCovs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Causes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChestImagingModalities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChestPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChestPressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChloroquinePhosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleanSurfaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalManifestation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloseContactWithSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coagulopathy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunityTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputationalVirologyAndEpidemiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputedTomographyScan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerAidedPrognosticsAndDiagnostics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerBasedResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfirmedCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConvalescentPlasma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coronavirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoughsFromSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoverMouth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoverNose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreatineKinase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreatinineLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D-dimer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegreeOfTransmision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delta-COV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosisSupport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseSeverityRatios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistanceLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dyspnea."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EGovernment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EUROPE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElevatedProthrombinTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epidemiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExposureHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalCooling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtracorporealMembraneOxygenator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferritin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gamma-COV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlucocorticoidTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glucocorticoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GranulocyteColony-StimulatingFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HCoV-229E"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HCoV-HKU1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HCoV-NL63"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HCoV-OC43"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hemodynamic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanCovs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanMetaPneumoVirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperbilirubinemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IMF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImportedCases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncubationTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfectionWithSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infodemic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntensiveCareUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterferonGamma-InducedProtein-10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interleukin-10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interleukin-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interleukin-7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterruptedTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvasiveMechanicalVentilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isolation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KeepDistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LactateDehydrogenase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lopinavir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossOfSmell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossOfTaste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LungUltrasound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MERS-CoV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MacrophageInflammatoryProteinAlpha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalImaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemberStates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MildDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MildSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModerateDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModerateSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonocyteChemotacticProtein-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MortalityRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleOrganDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusclePain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NasalCongestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeutrophilCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonInvasiveVentilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionalSupplements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenWHO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganFailure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OxygenTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parainfluenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pneumonia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PneumoniaInLungs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProbableCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procalcitonin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNAaemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadiolgyFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecentTravelToSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchAndLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnClinicalCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnDiagnostics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnEpidemiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnInfectionControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnMathematicalModelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnRiskCommunication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchOnVirology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespiratoryDistress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespiratoryDropletsFromSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespiratoryFailure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespiratorySyncytialVirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhinovirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ribavirin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskFactors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskFactorsFromInfection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskFactorsFromRoutesOfTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskFactorsFromTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ritonavir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RunnyNose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SARS-CoV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SepsisShock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SepticShock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SerumLactate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SevereDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SevereSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SexOfPatients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShortnessOfBreath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartWorkingAndSocialServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SneezeFromSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialDistancing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoreThroat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpO2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StayHome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surveillance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SusceptiblePopulations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuspectCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymptomaticCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tachypnea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TalkFromSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TelemedicineAndAssistiveTechnologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThermalScreening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thrombocytopenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiredness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToucheSurfaceWithSARS-CoV-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransmissionMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatedCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorNecrosisFactor-α"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vasopressors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VentilatoryCriteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViralLoad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViralPersistenceOnSurfaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vomiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WHO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WashHands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bloodLymphocyteCounts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChestX-ray,"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaO2/FiO2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFeatures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AGeneralIntroductionToEmergingRespiratoryViruses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AerosolDroplets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClinicalCareForSevereAcuteRespiratoryInfections"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Covid19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Covid19-OPG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Covid19-PP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DifficultyBreathing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DryCough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumanToHumanFomites"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IPCNC-Covid19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MildCough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NosocomialTransmission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhysicalContact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZoonoticTransmission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ePROTECT"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ALT"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abidor"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acetaminophen"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aches"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acidosis"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcuteRespiratoryDistressSyndrome"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adenovirus"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeOfPatients"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeOfTheDeaths"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alpha-COV"/>
+        <Class IRI="#CategoryCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alpha-Interferon"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntiBacterialTherapy"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntibioticTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntifungalTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntiviralTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidCloseContact"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidLargeEvents"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidSharingBedding"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidSharingDishes"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidSharingGlasses"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidTouchingEyes"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidTouchingMouth"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidTouchingNose"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasicReproduction"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beta-COV"/>
+        <Class IRI="#CategoryCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodUreaLevel"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueFace"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueLips"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C-reactive_protein"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD4Lymphocyte"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD8Lymphocyte"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiacInjury"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaseFatalityRatio"/>
+        <Class IRI="#DiseaseSeverityRatios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaseHospitalizationRatio"/>
+        <Class IRI="#DiseaseSeverityRatios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CategoryCovs"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChestImagingModalities"/>
+        <Class IRI="#DiagnosisSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChestPain"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChestPressure"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChloroquinePhosphate"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleanSurfaces"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloseContactWithSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloseContactWithSARS-CoV-2"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coagulopathy"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunityTransmission"/>
+        <Class IRI="#DegreeOfTransmision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputationalVirologyAndEpidemiology"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputationalVirologyAndEpidemiology"/>
+        <Class IRI="#ResearchOnEpidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputationalVirologyAndEpidemiology"/>
+        <Class IRI="#ResearchOnMathematicalModelling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputationalVirologyAndEpidemiology"/>
+        <Class IRI="#ResearchOnVirology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputedTomographyScan"/>
+        <Class IRI="#DiagnosisSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerAidedPrognosticsAndDiagnostics"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerAidedPrognosticsAndDiagnostics"/>
+        <Class IRI="#ResearchOnDiagnostics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerAidedPrognosticsAndDiagnostics"/>
+        <Class IRI="#ResearchOnTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerAidedPrognosticsAndDiagnostics"/>
+        <Class IRI="#ResearchOnVirology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerBasedResearch"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfirmedCase"/>
+        <Class IRI="#DiseaseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confusion"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConvalescentPlasma"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coronavirus"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cough"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoughsFromSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoverMouth"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoverNose"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatineKinase"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatinineLevel"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D-dimer"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delta-COV"/>
+        <Class IRI="#CategoryCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistanceLearning"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dyspnea."/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EGovernment"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EUROPE"/>
+        <Class IRI="#Agency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElevatedProthrombinTime"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExposureHistory"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalCooling"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtracorporealMembraneOxygenator"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferritin"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamma-COV"/>
+        <Class IRI="#CategoryCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlucocorticoidTherapy"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glucocorticoids"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GranulocyteColony-StimulatingFactor"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HCoV-229E"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HCoV-HKU1"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HCoV-NL63"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HCoV-OC43"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hemodynamic"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanCovs"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanMetaPneumoVirus"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperbilirubinemia"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IMF"/>
+        <Class IRI="#Agency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImportedCases"/>
+        <Class IRI="#DegreeOfTransmision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncubationTime"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfectionWithSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infodemic"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infodemic"/>
+        <Class IRI="#ResearchOnInfectionControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infodemic"/>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infodemic"/>
+        <Class IRI="#ResearchOnRiskCommunication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntensiveCareUnit"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterferonGamma-InducedProtein-10"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interleukin-10"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interleukin-2"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interleukin-7"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterruptedTransmission"/>
+        <Class IRI="#DegreeOfTransmision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InvasiveMechanicalVentilation"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isolation"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KeepDistance"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LactateDehydrogenase"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalTransmission"/>
+        <Class IRI="#DegreeOfTransmision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lopinavir"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossOfSmell"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossOfTaste"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LungUltrasound"/>
+        <Class IRI="#DiagnosisSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MERS-CoV"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MacrophageInflammatoryProteinAlpha"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malaise"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalImaging"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalImaging"/>
+        <Class IRI="#ResearchOnDiagnostics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalImaging"/>
+        <Class IRI="#ResearchOnTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalImaging"/>
+        <Class IRI="#Surveillance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemberStates"/>
+        <Class IRI="#WHO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MildDisease"/>
+        <Class IRI="#ClinicalManifestation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MildSymptoms"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModerateDisease"/>
+        <Class IRI="#ClinicalManifestation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModerateSymptoms"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonocyteChemotacticProtein-1"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MortalityRate"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleOrganDysfunction"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MusclePain"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NasalCongestion"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutrophilCount"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonInvasiveVentilation"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NutritionalSupplements"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenWHO"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganFailure"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OxygenTherapy"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parainfluenza"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pneumonia"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PneumoniaInLungs"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProbableCase"/>
+        <Class IRI="#DiseaseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procalcitonin"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNAaemia"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecentTravelToSARS-CoV-2"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnClinicalCare"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnDiagnostics"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnEpidemiology"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnInfectionControl"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnMathematicalModelling"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnRiskCommunication"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnTreatment"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchOnVirology"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchServices"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratoryDistress"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratoryDropletsFromSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratoryFailure"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratorySyncytialVirus"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhinovirus"/>
+        <Class IRI="#DiseaseRespiratoryDisorders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ribavirin"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskFactorsFromInfection"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskFactorsFromRoutesOfTransmission"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskFactorsFromTransmission"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ritonavir"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RunnyNose"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SARS-CoV"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SARS-CoV-2"/>
+        <Class IRI="#HumanCovs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepsisShock"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticShock"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SerumLactate"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SevereDisease"/>
+        <Class IRI="#ClinicalManifestation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SevereSymptoms"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SexOfPatients"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortnessOfBreath"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartServices"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartServices"/>
+        <Class IRI="#Surveillance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartWorkingAndSocialServices"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartWorkingAndSocialServices"/>
+        <Class IRI="#ResearchOnClinicalCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartWorkingAndSocialServices"/>
+        <Class IRI="#ResearchOnRiskCommunication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SneezeFromSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialDistancing"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialDistancing"/>
+        <Class IRI="#ResearchOnInfectionControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialDistancing"/>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialDistancing"/>
+        <Class IRI="#Surveillance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoreThroat"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpO2"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StayHome"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surveillance"/>
+        <Class IRI="#ResearchAndLearning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SusceptiblePopulations"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuspectCase"/>
+        <Class IRI="#DiseaseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymptomaticCare"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tachypnea"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TalkFromSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelemedicineAndAssistiveTechnologies"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelemedicineAndAssistiveTechnologies"/>
+        <Class IRI="#ResearchOnInfectionControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelemedicineAndAssistiveTechnologies"/>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelemedicineAndAssistiveTechnologies"/>
+        <Class IRI="#ResearchOnTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelemedicineAndAssistiveTechnologies"/>
+        <Class IRI="#Surveillance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalScreening"/>
+        <Class IRI="#ComputerBasedResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalScreening"/>
+        <Class IRI="#ResearchOnDiagnostics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalScreening"/>
+        <Class IRI="#ResearchOnInfectionControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalScreening"/>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalScreening"/>
+        <Class IRI="#Surveillance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thrombocytopenia"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiredness"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToucheSurfaceWithSARS-CoV-2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransmissionMode"/>
+        <Class IRI="#Epidemiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatedCase"/>
+        <Class IRI="#DiseaseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorNecrosisFactor-α"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UN"/>
+        <Class IRI="#Agency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vasopressors"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VentilatoryCriteria"/>
+        <Class IRI="#DiagnosisSupport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViralLoad"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViralPersistenceOnSurfaces"/>
+        <Class IRI="#RiskFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vomiting"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WHO"/>
+        <Class IRI="#Agency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WashHands"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloodLymphocyteCounts"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChestX-ray,"/>
+        <Class IRI="#ChestImagingModalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaO2/FiO2"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ALT"/>
+        <Class IRI="#Acidosis"/>
+        <Class IRI="#BloodUreaLevel"/>
+        <Class IRI="#C-reactive_protein"/>
+        <Class IRI="#CD4Lymphocyte"/>
+        <Class IRI="#CD8Lymphocyte"/>
+        <Class IRI="#Coagulopathy"/>
+        <Class IRI="#CreatineKinase"/>
+        <Class IRI="#CreatinineLevel"/>
+        <Class IRI="#D-dimer"/>
+        <Class IRI="#ElevatedProthrombinTime"/>
+        <Class IRI="#Ferritin"/>
+        <Class IRI="#GranulocyteColony-StimulatingFactor"/>
+        <Class IRI="#Hyperbilirubinemia"/>
+        <Class IRI="#InterferonGamma-InducedProtein-10"/>
+        <Class IRI="#Interleukin-10"/>
+        <Class IRI="#Interleukin-2"/>
+        <Class IRI="#Interleukin-7"/>
+        <Class IRI="#LactateDehydrogenase"/>
+        <Class IRI="#MacrophageInflammatoryProteinAlpha"/>
+        <Class IRI="#MonocyteChemotacticProtein-1"/>
+        <Class IRI="#NeutrophilCount"/>
+        <Class IRI="#Procalcitonin"/>
+        <Class IRI="#SerumLactate"/>
+        <Class IRI="#Thrombocytopenia"/>
+        <Class IRI="#TumorNecrosisFactor-α"/>
+        <Class IRI="#bloodLymphocyteCounts"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Abidor"/>
+        <Class IRI="#Acetaminophen"/>
+        <Class IRI="#Alpha-Interferon"/>
+        <Class IRI="#AntiBacterialTherapy"/>
+        <Class IRI="#AntibioticTreatment"/>
+        <Class IRI="#AntifungalTreatment"/>
+        <Class IRI="#AntiviralTreatment"/>
+        <Class IRI="#ChloroquinePhosphate"/>
+        <Class IRI="#ConvalescentPlasma"/>
+        <Class IRI="#ExternalCooling"/>
+        <Class IRI="#ExtracorporealMembraneOxygenator"/>
+        <Class IRI="#GlucocorticoidTherapy"/>
+        <Class IRI="#Glucocorticoids"/>
+        <Class IRI="#Hemodynamic"/>
+        <Class IRI="#IntensiveCareUnit"/>
+        <Class IRI="#InvasiveMechanicalVentilation"/>
+        <Class IRI="#Isolation"/>
+        <Class IRI="#Lopinavir"/>
+        <Class IRI="#NonInvasiveVentilation"/>
+        <Class IRI="#NutritionalSupplements"/>
+        <Class IRI="#OxygenTherapy"/>
+        <Class IRI="#Ribavirin"/>
+        <Class IRI="#Ritonavir"/>
+        <Class IRI="#SymptomaticCare"/>
+        <Class IRI="#Vasopressors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aches"/>
+        <Class IRI="#AcuteRespiratoryDistressSyndrome"/>
+        <Class IRI="#BlueFace"/>
+        <Class IRI="#BlueLips"/>
+        <Class IRI="#CardiacInjury"/>
+        <Class IRI="#ChestPain"/>
+        <Class IRI="#ChestPressure"/>
+        <Class IRI="#Confusion"/>
+        <Class IRI="#Cough"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dyspnea."/>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#LossOfSmell"/>
+        <Class IRI="#LossOfTaste"/>
+        <Class IRI="#Malaise"/>
+        <Class IRI="#MultipleOrganDysfunction"/>
+        <Class IRI="#MusclePain"/>
+        <Class IRI="#NasalCongestion"/>
+        <Class IRI="#Pneumonia"/>
+        <Class IRI="#RNAaemia"/>
+        <Class IRI="#RespiratoryDistress"/>
+        <Class IRI="#RespiratoryFailure"/>
+        <Class IRI="#RunnyNose"/>
+        <Class IRI="#SepsisShock"/>
+        <Class IRI="#SepticShock"/>
+        <Class IRI="#ShortnessOfBreath"/>
+        <Class IRI="#SoreThroat"/>
+        <Class IRI="#SpO2"/>
+        <Class IRI="#Tachypnea"/>
+        <Class IRI="#Tiredness"/>
+        <Class IRI="#Vomiting"/>
+        <Class IRI="#PaO2/FiO2"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aches"/>
+        <Class IRI="#BlueFace"/>
+        <Class IRI="#BlueLips"/>
+        <Class IRI="#ChestPain"/>
+        <Class IRI="#ChestPressure"/>
+        <Class IRI="#Confusion"/>
+        <Class IRI="#Cough"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#LossOfSmell"/>
+        <Class IRI="#LossOfTaste"/>
+        <Class IRI="#RunnyNose"/>
+        <Class IRI="#ShortnessOfBreath"/>
+        <Class IRI="#SoreThroat"/>
+        <Class IRI="#Tiredness"/>
+        <Class IRI="#Vomiting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aches"/>
+        <Class IRI="#Cough"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#LossOfSmell"/>
+        <Class IRI="#LossOfTaste"/>
+        <Class IRI="#RunnyNose"/>
+        <Class IRI="#ShortnessOfBreath"/>
+        <Class IRI="#SoreThroat"/>
+        <Class IRI="#Tiredness"/>
+        <Class IRI="#Vomiting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aches"/>
+        <Class IRI="#Cough"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#RunnyNose"/>
+        <Class IRI="#ShortnessOfBreath"/>
+        <Class IRI="#SoreThroat"/>
+        <Class IRI="#Tiredness"/>
+        <Class IRI="#Vomiting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Adenovirus"/>
+        <Class IRI="#Coronavirus"/>
+        <Class IRI="#HumanMetaPneumoVirus"/>
+        <Class IRI="#Influenza"/>
+        <Class IRI="#Parainfluenza"/>
+        <Class IRI="#RespiratorySyncytialVirus"/>
+        <Class IRI="#Rhinovirus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AgeOfPatients"/>
+        <Class IRI="#AgeOfTheDeaths"/>
+        <Class IRI="#BasicReproduction"/>
+        <Class IRI="#ExposureHistory"/>
+        <Class IRI="#IncubationTime"/>
+        <Class IRI="#MortalityRate"/>
+        <Class IRI="#SexOfPatients"/>
+        <Class IRI="#SusceptiblePopulations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agency"/>
+        <Class IRI="#Causes"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+        <Class IRI="#ClinicalManifestation"/>
+        <Class IRI="#Coronavirus"/>
+        <Class IRI="#DegreeOfTransmision"/>
+        <Class IRI="#DiseaseCase"/>
+        <Class IRI="#DiseaseSeverityRatios"/>
+        <Class IRI="#Epidemiology"/>
+        <Class IRI="#ResearchAndLearning"/>
+        <Class IRI="#RiskFactors"/>
+        <Class IRI="#Treatment"/>
+        <Class IRI="#ViralLoad"/>
+        <Class IRI="#ViralPersistenceOnSurfaces"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alpha-COV"/>
+        <Class IRI="#Beta-COV"/>
+        <Class IRI="#Delta-COV"/>
+        <Class IRI="#Gamma-COV"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AvoidCloseContact"/>
+        <Class IRI="#AvoidLargeEvents"/>
+        <Class IRI="#AvoidSharingBedding"/>
+        <Class IRI="#AvoidSharingDishes"/>
+        <Class IRI="#AvoidSharingGlasses"/>
+        <Class IRI="#AvoidTouchingEyes"/>
+        <Class IRI="#AvoidTouchingMouth"/>
+        <Class IRI="#AvoidTouchingNose"/>
+        <Class IRI="#CleanSurfaces"/>
+        <Class IRI="#CoverMouth"/>
+        <Class IRI="#CoverNose"/>
+        <Class IRI="#KeepDistance"/>
+        <Class IRI="#StayHome"/>
+        <Class IRI="#WashHands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CaseFatalityRatio"/>
+        <Class IRI="#CaseHospitalizationRatio"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Causes"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+        <Class IRI="#ClinicalManifestation"/>
+        <Class IRI="#Coronavirus"/>
+        <Class IRI="#DiseaseSeverityRatios"/>
+        <Class IRI="#Epidemiology"/>
+        <Class IRI="#RiskFactors"/>
+        <Class IRI="#Treatment"/>
+        <Class IRI="#ViralLoad"/>
+        <Class IRI="#ViralPersistenceOnSurfaces"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Causes"/>
+        <Class IRI="#ClinicalDiagnosis"/>
+        <Class IRI="#ClinicalManifestation"/>
+        <Class IRI="#Coronavirus"/>
+        <Class IRI="#Epidemiology"/>
+        <Class IRI="#Treatment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChestImagingModalities"/>
+        <Class IRI="#ComputedTomographyScan"/>
+        <Class IRI="#LungUltrasound"/>
+        <Class IRI="#VentilatoryCriteria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CloseContactWithSARS-CoV-2"/>
+        <Class IRI="#CoughsFromSARS-CoV-2"/>
+        <Class IRI="#InfectionWithSARS-CoV-2"/>
+        <Class IRI="#RespiratoryDropletsFromSARS-CoV-2"/>
+        <Class IRI="#SneezeFromSARS-CoV-2"/>
+        <Class IRI="#TalkFromSARS-CoV-2"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CloseContactWithSARS-CoV-2"/>
+        <Class IRI="#RecentTravelToSARS-CoV-2"/>
+        <Class IRI="#RiskFactorsFromInfection"/>
+        <Class IRI="#RiskFactorsFromRoutesOfTransmission"/>
+        <Class IRI="#RiskFactorsFromTransmission"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommunityTransmission"/>
+        <Class IRI="#ImportedCases"/>
+        <Class IRI="#InterruptedTransmission"/>
+        <Class IRI="#LocalTransmission"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfirmedCase"/>
+        <Class IRI="#ProbableCase"/>
+        <Class IRI="#SuspectCase"/>
+        <Class IRI="#TreatedCase"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EUROPE"/>
+        <Class IRI="#IMF"/>
+        <Class IRI="#UN"/>
+        <Class IRI="#WHO"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MildDisease"/>
+        <Class IRI="#ModerateDisease"/>
+        <Class IRI="#SevereDisease"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MildSymptoms"/>
+        <Class IRI="#ModerateSymptoms"/>
+        <Class IRI="#OrganFailure"/>
+        <Class IRI="#PneumoniaInLungs"/>
+        <Class IRI="#SevereSymptoms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OpenWHO"/>
+        <Class IRI="#ResearchOnClinicalCare"/>
+        <Class IRI="#ResearchOnDiagnostics"/>
+        <Class IRI="#ResearchOnEpidemiology"/>
+        <Class IRI="#ResearchOnInfectionControl"/>
+        <Class IRI="#ResearchOnInfectionPrevention"/>
+        <Class IRI="#ResearchOnMathematicalModelling"/>
+        <Class IRI="#ResearchOnRiskCommunication"/>
+        <Class IRI="#ResearchOnTreatment"/>
+        <Class IRI="#ResearchOnVirology"/>
+        <Class IRI="#Surveillance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RiskFactorsFromInfection"/>
+        <Class IRI="#RiskFactorsFromRoutesOfTransmission"/>
+        <Class IRI="#RiskFactorsFromTransmission"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#OpenWHO"/>
+        <NamedIndividual IRI="#AGeneralIntroductionToEmergingRespiratoryViruses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransmissionMode"/>
+        <NamedIndividual IRI="#AerosolDroplets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OpenWHO"/>
+        <NamedIndividual IRI="#ClinicalCareForSevereAcuteRespiratoryInfections"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SARS-CoV-2"/>
+        <NamedIndividual IRI="#Covid19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OpenWHO"/>
+        <NamedIndividual IRI="#Covid19-OPG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OpenWHO"/>
+        <NamedIndividual IRI="#Covid19-PP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ShortnessOfBreath"/>
+        <NamedIndividual IRI="#DifficultyBreathing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cough"/>
+        <NamedIndividual IRI="#DryCough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransmissionMode"/>
+        <NamedIndividual IRI="#HumanToHumanFomites"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OpenWHO"/>
+        <NamedIndividual IRI="#IPCNC-Covid19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cough"/>
+        <NamedIndividual IRI="#MildCough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransmissionMode"/>
+        <NamedIndividual IRI="#NosocomialTransmission"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransmissionMode"/>
+        <NamedIndividual IRI="#PhysicalContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransmissionMode"/>
+        <NamedIndividual IRI="#ZoonoticTransmission"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OpenWHO"/>
+        <NamedIndividual IRI="#ePROTECT"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFeatures"/>
+        <Class IRI="#DiseaseCase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasManifestation"/>
+        <Class IRI="#ClinicalManifestation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeatures"/>
+        <Class IRI="#RadiolgyFeatures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeatures"/>
+        <Class IRI="#Symptoms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasManifestation"/>
+        <Class IRI="#Symptoms"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alpha-COV</IRI>
+        <Literal>Gene characterization has helped identify that bats and rodents are the gene source of alpha-COV and beta-COV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvoidCloseContact</IRI>
+        <Literal>within about 6 feet, or 2 meters with anyone who is sick or has symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beta-COV</IRI>
+        <Literal>Gene characterization has helped identify that bats and rodents are the gene source of alpha-COV and beta-COV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConfirmedCase</IRI>
+        <Literal>A person with laboratory confirmation of COVID-19 infection, irrespective of clinical signs and symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coronavirus</IRI>
+        <Literal>CoVs are a large family of RNA viruses that are found diversely in animal species. They are known to cause diseases of the respiratory, hepatic, nervous system, and gastrointestinal systems in humans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coronavirus</IRI>
+        <Literal>CoVs are responsible for 5-10% of acute respiratory infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coronavirus</IRI>
+        <Literal>CoVs belong to the Roniviridae, Arteriviridae, and Coronaviridae families</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoverMouth</IRI>
+        <Literal>with your elbow or a tissue when you cough or sneeze. Throw away the used tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoverNose</IRI>
+        <Literal>with your elbow or a tissue when you cough or sneeze. Throw away the used tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Covid19-OPG</IRI>
+        <Literal>COVID-19 Operational Planning Guidelines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Covid19-PP</IRI>
+        <Literal>COVID-19 Partners Platform to support country preparedness and response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Delta-COV</IRI>
+        <Literal>Avian species are deemed as genetic sources of delta-COV and gamma-COV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gamma-COV</IRI>
+        <Literal>Avian species are deemed as genetic sources of delta-COV and gamma-COV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IPCNC-Covid19</IRI>
+        <Literal>Infection Prevention and Control for Novel Coronavirus (COVID-19)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KeepDistance</IRI>
+        <Literal>between yourself and others if COVID-19 is spreading in your community, especially if you have a higher risk of serious illness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OpenWHO</IRI>
+        <Literal>an interactive, web-based, knowledge-transfer platform offering online courses to improve the response to health emergencies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProbableCase</IRI>
+        <Literal>A suspect case for whom testing for COVID-19 is inconclusive. Inconclusive being the result of the test reported by the laboratory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SARS-CoV-2</IRI>
+        <Literal>bind to their target cells through angiotensin-converting enzyme 2 (ACE2), which is expressed in the lungs. Furthermore, these viruses can be functionally inactivated with the use of ethanol (60%), ether (75%), and chlorine-containing disinfectants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuspectCase</IRI>
+        <Literal>A patient with acute respiratory illness (fever and at least one sign/symptom of respiratory disease (e.g., cough, shortness of breath), AND with no other etiology that fully explains the clinical presentation AND a history of travel to or residence in a country/area or territory reporting local transmission (See situation report) of COVID-19 disease during the 14 days prior to symptom onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WashHands</IRI>
+        <Literal>often with soap and water for at least 20 seconds, or use an alcohol-based hand sanitizer that contains at least 60% alcohol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ePROTECT</IRI>
+        <Literal>Health and safety briefing for respiratory diseases</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
